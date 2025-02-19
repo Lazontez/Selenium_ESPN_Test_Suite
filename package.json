@@ -1,0 +1,20 @@
+{
+  "name": "selenium_espn_test_suite",
+  "version": "1.0.0",
+  "description": "The ESPN.com Automation Test Suite ensures a seamless user experience across key functionalities of ESPN’s website. It automates testing for navigation, live scores, video playback, authentication, and other critical interactions to detect UI, functional, and performance issues.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "selenium-webdriver": "^4.28.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^133.0.1"
+  }
+}
